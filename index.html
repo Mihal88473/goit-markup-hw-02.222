@@ -1,128 +1,179 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Студія</title>
-    <link rel="stylecss" href=".css/style.css">
+            <title>Студія</title>
+                      <link rel="stylesheet" type="text/css" href="css/style.css">
+               <link rel="preconnect" href="https://fonts.googleapis.com" />
+             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
+      <a class="link-logo" href="./index.html"><span>Web</span>Studio</a>
       <nav>
-        <a href="./imeges/WebStudio.jpg">WebStudio</a>
-        <ul>
-          <li><a href="./imeges/WebStudio.jpg">Головна </a></li>
-          <li><a href="#">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+        <ul class="link-nav">
+          <li><a class="link" href="./index.html">Студія</a></li>
+          <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="link" href="#"></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="link-contacts">
+        <li>
+          <a class="link" href="mailto:info@devstudio.com">example@gmail.com</a>
+        </li>
+        <li>
+          <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <style>
+        .center {
+          margin: auto;
+          width: 60%;
+          border: 3px solid #73AD21;
+          padding: 10px;
+        }
+        </style>
+            <img src="imeges/coolll.jpg" alt="/">
+        <h1 class="hero-hedding">Ефективні рішення для вашого бізнесу</h1>
+        <button class="hero-button" type="button">Замовити послугу</button>
       </section>
       <section>
-        <h2>Наші переваги</h2>
+        <h2 class="visually-hidden">Переваги</h2>
         <ul>
           <li>
-            <h3>Увага до деталей</h3>
-            <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+            <h3 class="points">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="description">
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
           </li>
           <li>
-            <h3>Пунктуальність</h3>
-            <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+            <h3 class="points">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="description">
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
           </li>
           <li>
-            <h3>Планування</h3>
-            <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+            <h3 class="points">ПЛАНУВАННЯ</h3>
+            <p class="description">
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
           </li>
           <li>
-            <h3>Сучасні технології</h3>
-            <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+            <h3 class="points">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="description">
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Чим ми займаємося</h2>
+      <section class="deeds-to-do">
+        <h2 class="our-job-heading">Чим ми займаємося</h2>
         <ul>
           <li>
-            <img src="./imeges/box1.jpg" alt="Людина набирає код" width="370" />
+            <img
+              src="./imeges/box1.jpg"
+              alt="планшет, дві руки на клавіатурі щось друкують"
+              width="370"
+            />
           </li>
           <li>
-            <img src="./images/box2.jpg" alt="Людина обирає макет мобільного додатку" width="370" />
+            <img
+              src="./imeges/box2.jpg"
+              alt="ноутбук та частина монітору на яких зображено смартфони і дві жіночі руки, в лівій руці знаходиться смартфон"
+              width="370"
+            />
           </li>
           <li>
-            <img src="./images/box3.jpg" alt="Людина вибирає кольори" width="370" />
+            <img
+              src="./imeges/box3jpg"
+              alt="дві руки, в лівій планшет з зображенням палітри кольорів, в правій стилус"
+              width="370"
+            />
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="our-team">
+        <h2 class="our-team-heading">Наша команда</h2>
+        <ul class="our-team-workers">
           <li>
             <img
               src="./imeges/krakow1.jpg"
-              alt="Усміхнений хлопець в окулярах та бордовій сорочці"
+              alt="чоловік на вигляд років 40 з бородою в окулярах посміхається"
               width="270"
             />
-            <h3>Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+            <h3 class="workers">Ігор Дем'яненко</h3>
+            <p class="position">Product Designer</p>
           </li>
           <li>
             <img
-              src="./images/krakow2.jpg"
-              alt="Усміхнена жінка в окулярах"
+              src="./imeges/krakow2.jpg"
+              alt="жінка на вигляд років 35 з помірно довгим білим волоссям в окулярах посміхається"
               width="270"
             />
-            <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./krakow3.jpg" alt="Усміхнений хлопець" width="270" />
-            <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="workers">Ольга Рєпіна</h3>
+            <p class="position">Frontend Developer</p>
           </li>
           <li>
             <img
-              src="./krakow4.jpg"
-              alt="Усміхнений хлопець в окурярах та футболці"
+              src="./imeges/imeges/krakow3.jpg"
+              alt="чоловік на вигляд років 30 посміхається"
               width="270"
             />
-            <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <h3 class="workers">Микола Тарасов</h3>
+            <p class="position">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./imeges/krakow4.jpg"
+              alt="чоловік на вигляд років 30 в окулярах злегка посміхається"
+              width="270"
+            />
+            <h3 class="workers">Михайло Єрмаков</h3>
+            <p class="position">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="./imeges/WebStudio.jpg">WebStudio</a>
-      <address>
-        <ul>
-          <li>
+    <footer class="page-bottom">
+      <a class="link-logo-bottom" href="./index.html"
+        ><span class="web-word">Web</span>Studio</a
+      >
+      <address class="contacts">
+        <ul class="link-contacts">
+          <li class="location">
             <a
-              href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+              class="link-bottom"
+              href="https://goo.gl/maps/7kxBD52CgUuhiN939"
               target="_blank"
-              rel="noopener noreferrer nofollow"
+              rel="noopener nofollow noreferrer"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link-bottom" href="mailto:info@devstudio.com"
+              >example@gmail.com</a
+            >
           </li>
           <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link-bottom" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>
     </footer>
   </body>
 </html>
-
 
 
